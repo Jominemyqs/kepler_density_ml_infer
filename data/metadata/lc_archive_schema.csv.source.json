@@ -1,0 +1,6 @@
+{
+  "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+column_name%2Cunit%2Cdescription+from+TAP_SCHEMA.columns+where+table_name%3D%27KEPLERTIMESERIES%27&format=csv&lang=ADQL&request=doQuery&maxrec=100000",
+  "request": null,
+  "utc": "2026-11-20T20:01:40.277430+00:00",
+  "sha256": "3fbc2dfd6b9598d507fc855b559b22add6d13e8f1012aa9255e202c512f46133"
+}

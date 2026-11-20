@@ -1,0 +1,6 @@
+{
+  "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+table_name%2Ccolumn_name%2Cunit%2Cdescription+from+TAP_SCHEMA.columns+where+table_name+in+%28%27CUMULATIVE%27%2C%27Q1_Q17_DR25_KOI%27%2C%27Q1_Q17_DR25_KS%27%2C%27KEPLERSTELLAR%27%2C%27Q1_Q17_DR25_SUP_KS%27%29&format=csv&lang=ADQL&request=doQuery&maxrec=100000",
+  "request": null,
+  "utc": "2026-11-20T19:54:01.556097+00:00",
+  "sha256": "656e910d82ab92b2e4c81275bedfa0c312cd35cbd4dbe37da559e092986e1416"
+}

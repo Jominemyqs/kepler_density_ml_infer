@@ -1,0 +1,173 @@
+#
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2026-11-20T20:09:03 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-11-20T20:09:03	  Query execution date
+#INFO	request=https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/AJ/159/280&KIC=10221013,10232123,10264660,10281221,10874614,11086270,11282568,11359879,11414511,11446443,11495989,11502867,12019440,12252424,12644822,3115833,3247268,3351888,3749365,3935914,4570949,4840513,5115978,5357901,5358624,5391911,5436161,5441980,5683743,5728139,5731623,5780885,5794240,6046540,6291653,6309763,6922244,6946199,6974658,7107567,7202957,7509886,7585481,7778437,7811211,7832356,7849854,8218274,8240797,8255887,8260218,8359498,8544996,8554498,9115800,9141746,9166862,9305831,9410930,9530945,9631995,9643874,9651668,9818381,9909735,9944201&-out=KIC,RUWE,Ncomp&-out.max=1000	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_51590280
+#Name: J/AJ/159/280
+#Title: Gaia-Kepler stellar properties catalog.I. KIC stars (Berger+, 2020)
+#INFO	ivoid=ivo://cds.vizier/j/aj/159/280	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/aj/159/280	    IVOID of underlying data collection
+#INFO	creator=Berger T.A.	    First author or institution
+#INFO	cites=bibcode:2020AJ....159..280B	    Article or Data origin sources
+#INFO	journal=AJ	    Journal name
+#INFO	original_date=2020	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/AJ/159/280	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.51590280	    Dataset identifier that can be used for citation
+#INFO	publication_date=2021-02-02	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_AJ_159_280_table1:
+#Name: J/AJ/159/280/table1
+#Title: Gaia-Kepler Stellar input parameters
+#Column	KIC	(I8)	Kepler Input Catalog identifier	[ucd=meta.id;meta.main]
+#Column	RUWE	(F7.4)	[0.63/73.5] Re-normalized unit-weight error (4)	[ucd=phot.mag]
+#Column	Ncomp	(I1)	[0/6]? Number, Gaia DR2 companions within 4"	[ucd=meta.number;phys.atmol.number]
+KIC	RUWE	Ncomp
+ 	 	
+--------	-------	-
+ 3247268	 0.9291	0
+ 3351888	 0.9523	1
+ 3749365	 0.9984	0
+ 3935914	 1.0735	0
+ 4570949	 1.1870	0
+ 4840513	 0.9352	1
+ 5115978	 0.9443	0
+ 5357901	 1.0130	0
+ 5358624	 1.0104	1
+ 5391911	 1.0415	0
+ 5436161	 0.9891	0
+ 5441980	 0.9348	0
+ 5683743	 0.9834	0
+ 5728139	 0.9871	0
+ 5731623	 1.0008	1
+ 5780885	 0.9078	1
+ 5794240	 1.0036	0
+ 6046540	 0.9133	1
+ 6291653	 1.0201	0
+ 6309763	 0.9214	0
+ 6922244	 0.9259	0
+ 6946199	 0.9535	1
+ 6974658	 0.9791	0
+ 7107567	 1.1424	1
+ 7202957	 0.8946	0
+ 7509886	 1.0459	0
+ 7585481	 1.0547	0
+ 7778437	 0.9562	0
+ 7811211	10.6486	0
+ 7832356	 1.0714	0
+ 7849854	 0.9149	0
+ 8218274	 1.1495	0
+ 8240797	 0.9764	0
+ 8255887	 0.9320	1
+ 8260218	 1.1466	1
+ 8359498	 0.9612	0
+ 8544996	 3.9680	0
+ 8554498	 3.3003	0
+ 9115800	 1.0317	0
+ 9141746	 0.9383	0
+ 9166862	 1.0024	1
+ 9305831	 0.9732	0
+ 9410930	 0.9352	0
+ 9530945	 0.9853	0
+ 9631995	 1.0053	0
+ 9643874	 1.0429	1
+ 9651668	 1.0415	0
+ 9818381	 0.8725	0
+ 9909735	 0.9928	0
+ 9944201	 4.6110	0
+10221013	 0.9752	0
+10232123	 1.2337	1
+10281221	 0.9091	0
+10874614	 0.9991	0
+11086270	 1.0381	0
+11282568	 1.1426	0
+11359879	 1.1971	0
+11414511	 0.9959	1
+11446443	 0.9016	0
+11495989	 1.0253	0
+11502867	 1.0080	0
+12019440	 0.9859	0
+12252424	 1.0959	0
+12644822	 1.0399	0
+
+#Table	J_AJ_159_280_table2:
+#Name: J/AJ/159/280/table2
+#Title: Gaia-Kepler Stellar output parameters
+#Column	KIC	(I8)	Kepler Input Catalog identifier	[ucd=meta.id;meta.main]
+KIC
+
+--------
+ 3247268
+ 3351888
+ 3749365
+ 3935914
+ 4570949
+ 4840513
+ 5115978
+ 5357901
+ 5358624
+ 5391911
+ 5436161
+ 5441980
+ 5683743
+ 5728139
+ 5731623
+ 5780885
+ 5794240
+ 6046540
+ 6291653
+ 6309763
+ 6922244
+ 6946199
+ 6974658
+ 7107567
+ 7202957
+ 7509886
+ 7585481
+ 7778437
+ 7811211
+ 7832356
+ 7849854
+ 8218274
+ 8240797
+ 8255887
+ 8260218
+ 8359498
+ 8544996
+ 8554498
+ 9115800
+ 9141746
+ 9166862
+ 9305831
+ 9410930
+ 9530945
+ 9631995
+ 9643874
+ 9651668
+ 9818381
+ 9909735
+ 9944201
+10221013
+10232123
+10281221
+10874614
+11086270
+11282568
+11359879
+11414511
+11446443
+11495989
+11502867
+12019440
+12252424
+12644822
+

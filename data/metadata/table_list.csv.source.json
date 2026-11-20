@@ -1,0 +1,6 @@
+{
+  "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+table_name+from+TAP_SCHEMA.tables&format=csv&lang=ADQL&request=doQuery&maxrec=100000",
+  "request": null,
+  "utc": "2026-11-20T19:53:48.253733+00:00",
+  "sha256": "2a00c5466525668ffbb54a661b2a0fbc02cdc509139c96efd126a9a4d5639b2c"
+}
